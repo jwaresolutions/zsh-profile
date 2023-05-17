@@ -6,6 +6,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 
 # install some packages
 sudo apt update && sudo apt upgrade -y && sudo apt install git python3 python3-pip python-is-python3 python-is-python3 gdown -y
+pip install gdown
 
 # install powerlevel10k and dependencies
 git clone https://github.com/ryanoasis/nerd-fonts.git
