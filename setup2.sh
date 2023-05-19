@@ -1,7 +1,7 @@
 #!bin/zsh
 
 # install some packages
-sudo apt install git python3 python3-pip python-is-python3 python-is-python3 gdown -y
+sudo apt install git python3 python3-pip python-is-python3 python-is-python3 -y
 pip install gdown
 
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k/
