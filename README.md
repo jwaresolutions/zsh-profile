@@ -6,3 +6,5 @@ After ZSH installs run
 ```
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/jwaresolutions/zsh-profile/main/setup2.sh)"
 ```
+then type 
+`source ~/.zshrc`
