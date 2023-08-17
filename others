@@ -1,0 +1,15 @@
+Install stupid anaconda
+
+copy the name of the latest version of Anaconda3.*Linux-x86_64.sh from https://repo.anaconda.com/archive/
+wget https://repo.anaconda.com/archive/{Anaconda file name}
+
+zsh Anaconda3-2022.05-Linux-x86_64.sh
+
+add to path or ~/.zshrc file
+export PATH="/root/anaconda3/bin:$PATH"
+
+
+
+Install stupid docker
+
+sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
