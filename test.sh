@@ -1,3 +1,5 @@
+still failing check https://www.reddit.com/r/zsh/comments/riokz2/unattended_install/
+later
 #!bin/bash
 
 # install zsh
