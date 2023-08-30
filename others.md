@@ -33,6 +33,11 @@ conda create -n Aider python=3.11.4
 export OPENAI_API_KEY={yourkeyhere}
 conda activate Aider
 pip install aider-chat
-apt install universal-ctags 
+sudo apt install universal-ctags
+```
+
+#### Run universal-ctags in the git directory
+```
+ctags .
 ```
 
