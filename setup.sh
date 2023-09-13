@@ -22,5 +22,5 @@ git clone https://github.com/jwaresolutions/zsh-profile.git ~/zsh-profile/
 cp ~/zsh-profile/.p10k.zsh ~/
 cp ~/zsh-profile/.zshrc ~/
 # cd ~ && rm -rf ~/zsh-profile
-zsh
+chsh -s $(which zsh)
 source ~/.zshrc
