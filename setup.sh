@@ -23,4 +23,4 @@ cp ~/zsh-profile/.p10k.zsh ~/
 cp ~/zsh-profile/.zshrc ~/
 # cd ~ && rm -rf ~/zsh-profile
 chsh -s $(which zsh)
-source ~/.zshrc
+zsh
