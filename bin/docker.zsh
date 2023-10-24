@@ -1,4 +1,4 @@
-#!bin/zsh
+#!/bin/zsh
 sudo apt update
 sudo apt install ca-certificates curl apt-transport-https -y
 sudo install -m 0755 -d /etc/apt/keyrings
