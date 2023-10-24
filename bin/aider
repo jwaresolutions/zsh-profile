@@ -1,4 +1,4 @@
-#!bin/zsh
+#!/bin/zsh
 ~/bin/anaconda.zsh
 conda create -n Aider python=3.11.4
 export OPENAI_API_KEY={yourkeyhere}
