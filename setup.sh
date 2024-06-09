@@ -7,7 +7,7 @@ DEBIAN_FRONTEND='noninteractive' apt-get -y -o Dpkg::Options::='--force-confdef'
 
 # install some packages
 DEBIAN_FRONTEND='noninteractive' apt install -y -o Dpkg::Options::='--force-confdef' -o Dpkg::Options::='--force-confold' git python3 python3-pip python-is-python3 python-is-python3 zsh
-pip install gdown
+pip install gdown docker.io docker-compose
 apt-get autoremove -y
 apt-get clean
 apt-get autoclean
