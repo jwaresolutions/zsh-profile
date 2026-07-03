@@ -114,3 +114,4 @@ else
 fi
 
 echo "==> Done. Open a new shell or run: exec zsh"
+echo "==> IMPORTANT: fully quit iTerm2 (Cmd+Q) and reopen it so the new font takes effect."
